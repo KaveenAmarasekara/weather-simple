@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 50%;
+  height: fit-content; 
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.card h3 {
+  margin: 0 0 8px 0;
+}
+.card p {
+  margin: 4px 0;
+}
+.card input {
+  margin: 4px;
+  padding: 8px;
+  width: fit-content;
+}
+.card button {
+  padding: 8px 16px;
+  margin-top: 8px;
+}
+.card .error {
+  color: red;
+  margin-top: 8px;
+}
+.card .loading {
+  color: blue;
+  margin-top: 8px;
+}
+.card .weather-info {
+  margin-top: 16px;
+}
+.card .weather-info p {
+  margin: 4px 0;
+}
+.location {
+  font-size: 1.25em;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.sun {
+  display: flex;
+  gap: 30px;
+}
